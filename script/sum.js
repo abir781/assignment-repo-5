@@ -19,6 +19,16 @@ document.getElementById("id-1").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+
+    let time= new Date();
+    let newtime=time.toLocaleTimeString();
+
+    const container=document.getElementById("show");
+    const p=document.createElement("p");
+    p.innerText=`
+    You have completed the task Fix Mobile Button issue at ${newtime}
+    `
+    container.appendChild(p);
 })
 
 document.getElementById("id-2").addEventListener("click",function(){
@@ -42,6 +52,17 @@ document.getElementById("id-2").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    let time= new Date();
+    let newtime=time.toLocaleTimeString();
+
+    const container=document.getElementById("show");
+    const p=document.createElement("p");
+    p.innerText=`
+    You have completed the task Add Dark Mode at ${newtime}
+    `
+    container.appendChild(p);
+
+
 })
 
 document.getElementById("id-3").addEventListener("click",function(){
@@ -65,6 +86,16 @@ document.getElementById("id-3").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    let time= new Date();
+    let newtime=time.toLocaleTimeString();
+
+    const container=document.getElementById("show");
+    const p=document.createElement("p");
+    p.innerText=`
+    You have completed the task Optimize Home Page at ${newtime}
+    `
+    container.appendChild(p);
+
 })
 
 document.getElementById("id-4").addEventListener("click",function(){
@@ -88,6 +119,15 @@ document.getElementById("id-4").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    let time= new Date();
+    let newtime=time.toLocaleTimeString();
+
+    const container=document.getElementById("show");
+    const p=document.createElement("p");
+    p.innerText=`
+    You have completed the task Add new emoji 🤲 at ${newtime}
+    `
+    container.appendChild(p);
 })
 
 document.getElementById("id-5").addEventListener("click",function(){
@@ -111,6 +151,16 @@ document.getElementById("id-5").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    let time= new Date();
+    let newtime=time.toLocaleTimeString();
+
+    const container=document.getElementById("show");
+    const p=document.createElement("p");
+    p.innerText=`
+    You have completed the task Integrate OpenAI API at ${newtime}
+    `
+    container.appendChild(p);
+    
 })
 
 document.getElementById("id-6").addEventListener("click",function(){
@@ -134,4 +184,13 @@ document.getElementById("id-6").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    let time= new Date();
+    let newtime=time.toLocaleTimeString();
+
+    const container=document.getElementById("show");
+    const p=document.createElement("p");
+    p.innerText=`
+    You have completed the task Improve Job searching at ${newtime}
+    `
+    container.appendChild(p);
 })
