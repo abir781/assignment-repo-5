@@ -20,6 +20,9 @@ document.getElementById("id-1").addEventListener("click",function(){
         alert("congrats!!! You have completed all the current task");
     }
 
+    const fixed=document.getElementById("fix-1").innerText;
+    
+
     let time= new Date();
     let newtime=time.toLocaleTimeString();
 
@@ -27,7 +30,7 @@ document.getElementById("id-1").addEventListener("click",function(){
     const p=document.createElement("p");
     p.classList.add("bg-[#F4F7FF]","p-4","m-4","rounded-2xl","font-bold");
     p.innerText=`
-    You have completed the task Fix Mobile Button issue at ${newtime}
+    You have completed the task ${fixed} at ${newtime}
     `
     container.appendChild(p);
 })
@@ -53,6 +56,8 @@ document.getElementById("id-2").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    const fixed=document.getElementById("fix-2").innerText;
+
     let time= new Date();
     let newtime=time.toLocaleTimeString();
 
@@ -60,7 +65,7 @@ document.getElementById("id-2").addEventListener("click",function(){
     const p=document.createElement("p");
     p.classList.add("bg-[#F4F7FF]","p-4","m-4","rounded-2xl","font-bold");
     p.innerText=`
-    You have completed the task Add Dark Mode at ${newtime}
+    You have completed the task ${fixed} at ${newtime}
     `
     container.appendChild(p);
 
@@ -88,6 +93,8 @@ document.getElementById("id-3").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    const fixed=document.getElementById("fix-3").innerText;
+
     let time= new Date();
     let newtime=time.toLocaleTimeString();
 
@@ -95,7 +102,7 @@ document.getElementById("id-3").addEventListener("click",function(){
     const p=document.createElement("p");
     p.classList.add("bg-[#F4F7FF]","p-4","m-4","rounded-2xl","font-bold");
     p.innerText=`
-    You have completed the task Optimize Home Page at ${newtime}
+    You have completed the task ${fixed} at ${newtime}
     `
     container.appendChild(p);
 
@@ -122,6 +129,9 @@ document.getElementById("id-4").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    const fixed=document.getElementById("fix-4").innerText;
+
+
     let time= new Date();
     let newtime=time.toLocaleTimeString();
 
@@ -129,7 +139,7 @@ document.getElementById("id-4").addEventListener("click",function(){
     const p=document.createElement("p");
     p.classList.add("bg-[#F4F7FF]","p-4","m-4","rounded-2xl","font-bold");
     p.innerText=`
-    You have completed the task Add new emoji 🤲 at ${newtime}
+    You have completed the task ${fixed} at ${newtime}
     `
     container.appendChild(p);
 })
@@ -155,6 +165,8 @@ document.getElementById("id-5").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    const fixed=document.getElementById("fix-5").innerText;
+
     let time= new Date();
     let newtime=time.toLocaleTimeString();
 
@@ -162,7 +174,7 @@ document.getElementById("id-5").addEventListener("click",function(){
     const p=document.createElement("p");
     p.classList.add("bg-[#F4F7FF]","p-4","m-4","rounded-2xl","font-bold");
     p.innerText=`
-    You have completed the task Integrate OpenAI API at ${newtime}
+    You have completed the task ${fixed} at ${newtime}
     `
     container.appendChild(p);
     
@@ -189,6 +201,8 @@ document.getElementById("id-6").addEventListener("click",function(){
     if(convertedamount===0){
         alert("congrats!!! You have completed all the current task");
     }
+    const fixed=document.getElementById("fix-6").innerText;
+
     let time= new Date();
     let newtime=time.toLocaleTimeString();
 
@@ -196,7 +210,7 @@ document.getElementById("id-6").addEventListener("click",function(){
     const p=document.createElement("p");
     p.classList.add("bg-[#F4F7FF]","p-4","m-4","rounded-2xl","font-bold");
     p.innerText=`
-    You have completed the task Improve Job searching at ${newtime}
+    You have completed the task ${fixed} at ${newtime}
     `
     container.appendChild(p);
 })
